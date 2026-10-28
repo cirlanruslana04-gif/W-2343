@@ -15,6 +15,7 @@ public class FormTest {
     public static String FIRST_NAME = "Eugeniu";
     public static String LAST_NAME = "Poberejnîi";
     public static String USER_EMAIL = "poberejniieugeniu@gmail.com";
+    public static String GENDER = "Female";
 
     @BeforeTest
     public void beforeTest()
