@@ -19,6 +19,9 @@ public class DemoqaForm {
     @FindBy(id="userEmail")
     WebElement userEmail;
 
+    @FinBy(id="userNumber")
+    WebElement userNumber;
+
     public DemoqaForm(WebDriver driverParam)
     {
         driver = driverParam;
@@ -42,5 +45,10 @@ public class DemoqaForm {
     {
         userEmail.clear();
         userEmail.sendKeys(userEmailParam);
+    }
+
+    public void setUserNumber(String numberParam){
+        userNumber.clear();
+        userNumber.sendKeys(numberParam);
     }
 }
