@@ -15,9 +15,9 @@ public class FormTest {
     private static final Logger logger = LogManager.getLogger(FormTest.class);
     static public WebDriver driver;
     public static String URI="https://demoqa.com/automation-practice-form";
-    public static String FIRST_NAME ="Liudmila";
-    public static String LAST_NAME ="Zugravu";
-    public static String USER_EMAIL ="li.mila170@gmail.com";
+    public static String FIRST_NAME ="Ruslana";
+    public static String LAST_NAME ="Cirlan";
+    public static String USER_EMAIL ="cirlanruslana04@gmail.com";
     public static String USER_GENDER ="Female";
     public static String USER_NUMBER ="0069614900";
     public static String DATE ="24 Jan 2008";
